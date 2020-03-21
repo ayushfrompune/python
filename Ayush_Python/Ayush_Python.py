@@ -1,37 +1,37 @@
 
 import turtle
-ayush=turtle.Pen()
-ayush.shape("turtle")
-ayush.color("red")
-ayush.circle(100)
-ayush.circle(-100)
-ayush.up()
-ayush.forward(200)
-ayush.down()
-ayush.width(5)
-ayush.circle(100)
-ayush.reset()
+ditya=turtle.Pen()
+ditya.shape("turtle")
+ditya.color("red")
+ditya.circle(100)
+ditya.circle(-100)
+ditya.up()
+ditya.forward(200)
+ditya.down()
+ditya.width(5)
+ditya.circle(100)
+ditya.reset()
 
 
 for i in range(4):
-    ayush.forward(100)
-    ayush.left(90)
-ayush.reset()
-ayush.up()
-ayush.backward(300)
-ayush.down()
+    ditya.forward(100)
+    ditya.left(90)
+ditya.reset()
+ditya.up()
+ditya.backward(300)
+ditya.down()
 
 for i in range(5):
-    ayush.forward(100)
-    ayush.left(144)
-ayush.up()
-ayush.forward(400)
-ayush.down()
+    ditya.forward(100)
+    ditya.left(144)
+ditya.up()
+ditya.forward(400)
+ditya.down()
 
 
 for i in range(30):
-    ayush.forward(10*i)
-    ayush.left(90)
-ayush.up()
-ayush.forward(-40)
+    ditya.forward(10*i)
+    ditya.left(90)
+ditya.up()
+ditya.forward(-40)
 
